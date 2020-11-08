@@ -4,7 +4,7 @@ Take care of your green friends
 
 ## Stack & link
 
-This applications is build with thoses followings technologies
+This applications is build with those following technologies
 
 - [Create React App](https://create-react-app.dev/)
 - [React](https://reactjs.org/)
