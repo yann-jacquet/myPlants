@@ -1,6 +1,14 @@
 :root {
+  --primary-300: #B6DEC6;
+  --primary-400: #7FC59C;
   --primary-500: #48AC71;
+  --primary-600: #419B66;
+  --primary-700: #2B6744;
+  --error-300: #FEB6AD;
+  --error-400: #FE7F6F;
   --error-500: #FD4831;
+  --error-600: #E4412C;
+  --error-700: #982B1D;
   --white: #ffffff;
   --black: #272F2A;
   --grey: #7E8481;

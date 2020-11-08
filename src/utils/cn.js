@@ -1,5 +1,5 @@
-const cn = (classes) => Array.isArray(classes)
+const cn = (classes) => (Array.isArray(classes)
   ? classes.filter(Boolean).join(' ')
-  : console.warn('Your style classes should be in an array')
+  : console.warn('Your style classes should be in an array'));
 
-export default cn
+export default cn;

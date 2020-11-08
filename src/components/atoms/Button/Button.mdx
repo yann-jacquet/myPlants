@@ -1,0 +1,36 @@
+---
+name: Button
+menu: Atoms
+---
+
+import {Playground, Props} from 'docz'
+import '../../../constants/styles/colors.css'
+import '../../../constants/styles/texts.css'
+import '../../../constants/styles/boundaries.css'
+
+import Button from './Button'
+
+# Button
+
+<Playground>
+  <Button label="Button Primary" color="primary" />
+  <Button label="Button Primary medium" color="primary"  size="medium" />
+</Playground>
+
+<Playground>
+  <Button label="Button Error" color="error" />
+  <Button label="Button Error medium" color="error"  size="medium" />
+</Playground>
+
+<Playground>
+  <Button label="Button Transparent" color="transparent" />
+  <Button label="Button Transparent medium" color="transparent"  size="medium" />
+</Playground>
+
+<Playground>
+  <Button label="Button Primary" color="primary" isDisabled/>
+</Playground>
+
+## Props
+
+<Props of={Button} />

@@ -1,9 +1,45 @@
 # myPlants
+
 Take care of your green friends
+
+## Stack & link
+
+This applications is build with thoses followings technologies
+
+- [Create React App](https://create-react-app.dev/)
+- [React](https://reactjs.org/)
+- [DocZ](https://www.docz.site/)
+
+## Scripts
+
+### Start the project
+
+```
+yarn start
+```
+
+### Build the project
+
+```
+yarn build
+```
+
+### Start the documentation & component library (with DocZ)
+
+```
+yarn docz:dev
+```
+
+### Lint JS
+
+```
+yarn lint:js
+```
 
 ## Components
 
 ### Atoms
+
 - Button (confirmer arrosage / ajouter ma photo / picto croix / picto filtres)
 - Picto
 - Switch toggle
@@ -12,14 +48,15 @@ Take care of your green friends
 - Dropdown
 - ActionPicto (exemple btn fav)
 - InfoIcon (vue plante -> arrosage/lumiere ..., title, subtitle)
- 
+
 ### Molecules
+
 - Label (picto + text)
 - BackBar
 - GridItem
 
-
 ### Organisms
+
 - Card
 - ListItem (image + label + sublabel + picto)
 - TopNav
@@ -28,4 +65,5 @@ Take care of your green friends
 - Grid (SearchResults, List de cards)
 
 ### Templates
+
 - WithMenu (top / bottom)
