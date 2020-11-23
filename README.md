@@ -9,6 +9,7 @@ This applications is build with those following technologies
 - [Create React App](https://create-react-app.dev/)
 - [React](https://reactjs.org/)
 - [DocZ](https://www.docz.site/)
+- [React Router](https://reactrouter.com/web/guides/quick-start)
 
 ## Scripts
 
